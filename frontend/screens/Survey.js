@@ -1,10 +1,15 @@
-import { View, Text } from 'react-native'
+import { View, Text, SafeAreaView } from 'react-native'
 import React from 'react'
+import Header from '../components/survey/Header'
+
 
 export default function Survey() {
   return (
     <View>
-      <Text>Survey</Text>
+      <Header name='João.'/>
+    <SafeAreaView>
+      
+    </SafeAreaView>
     </View>
   )
 }
