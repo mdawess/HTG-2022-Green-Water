@@ -9,7 +9,7 @@ export default function Header(props) {
             <View style={{ width: 75, height: 75, backgroundColor: '#3B5284', alignItems: 'center', justifyContent: 'center', borderRadius: 40}}>
                 <Image source={farmer1}/>
             </View>
-            <Text style={{ marginLeft: 30, fontSize: 25, fontWeight: 'semi'}}>{'Welcome, ' + props.name}</Text>
+            <Text style={{ marginLeft: 30, fontSize: 25, fontWeight: '400'}}>{'Welcome, ' + props.name}</Text>
         </SafeAreaView>
     </View>
   )
