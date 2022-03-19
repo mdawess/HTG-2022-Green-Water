@@ -18,19 +18,5 @@ const cropDataA = [
     },
 ]
 
-const cropDataB = [
-    {
-        cropType: 'Rice',
-        image: rice
-    },
-    {
-        cropType: 'Maize',
-        image: maize
-    },
-    {
-        cropType: 'Other',
-        image: other
-    },
-]
 
 export default cropDataA

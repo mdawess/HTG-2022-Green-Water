@@ -5,9 +5,10 @@ import Location from '../components/survey/Location'
 import Size from '../components/survey/Size'
 import Crops from '../components/survey/Crops'
 import Fertilizer from '../components/survey/Fertilizer'
+import Footer from '../components/survey/Footer'
 
 
-export default function Survey() {
+export default function Survey({ navigation }) {
   const [location, setLocation] = useState('')
   const [range, setRange] = useState('0')
 
@@ -19,6 +20,7 @@ export default function Survey() {
       <Size range={range} handleRange={setRange} />
       <Crops />
       <Fertilizer />
+      <Footer name='Carlos' selectedCrop='sugarcane' navigation={navigation}/>
     </SafeAreaView>
     </View>
   )
