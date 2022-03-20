@@ -1,8 +1,8 @@
 import os
 from twilio.rest import Client
 
-TWILIO_ACCOUNT_SID = 'ACdac08722a3b9cb19c618ce10bf81a37d'
-TWILIO_AUTH_TOKEN = '62912a9cf18a452100b8010cad5f2599'
+TWILIO_ACCOUNT_SID = ''
+TWILIO_AUTH_TOKEN = ''
 TWILIO_PHONE_NUMBER = '+15878516120'
 
 account_sid = os.environ['TWILIO_ACCOUNT_SID']
