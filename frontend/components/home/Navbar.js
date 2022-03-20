@@ -5,7 +5,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons'
 
 export default function Navbar(props) {
   return (
-    <View style={{ position: 'relative', paddingHorizontal: 30, marginTop: 'auto', backgroundColor: '#F2FFFE', paddingVertical: 25, borderRadius: 12, borderWidth: 1, borderColor: '#C5DBFF' }}>
+    <View style={{ position: 'relative', paddingHorizontal: 30, marginTop: 'auto', backgroundColor: '#BBD5FF', paddingVertical: 25, borderRadius: 12 }}>
       <View style={{ flexDirection: 'row', justifyContent: 'space-between'}}>
         <Icon name='location-outline' navigation={props.navigation}/>
         <Icon name='home-outline' navigation={props.navigation} />
@@ -19,7 +19,7 @@ const Icon = (props) => (
   <TouchableOpacity onPress={
     () => {
       if (props.name === 'location-outline') {
-        props.navigation.goBack()
+        props.navigation.navigate('Survey')
       } else if (props.name === 'earth-outline') {
         props.navigation.navigate('Community')
       } else {
