@@ -1,8 +1,9 @@
 import { View, Text, ScrollView } from 'react-native'
 import React from 'react'
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
+import apiKeys from '../home/apiKeys';
 
-const GOOGLE_API_KEY = 'AIzaSyAum1Z1hv_-OdUTaC7ihIjmlIHzMlkDINE'
+const GOOGLE_API_KEY = apiKeys.google
 
 export default function Location(props) {
     return (

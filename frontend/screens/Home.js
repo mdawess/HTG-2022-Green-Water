@@ -8,6 +8,8 @@ import Navbar from '../components/home/Navbar'
 export default function Home({ navigation }) {
   const [selectedCrop, setSelectedCrop] = useState('Soy')
 
+  
+
 
   return (
     <View style={{flex: 1, backgroundColor: 'white'}}>

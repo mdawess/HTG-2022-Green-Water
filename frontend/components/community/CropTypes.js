@@ -4,7 +4,7 @@ import communityData from '../../data/communityData'
 
 export default function CropTypes(props) {
   return (
-    <ScrollView horizontal={true} style={{  }}>
+    <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} >
         <View style={{ flexDirection: 'row', paddingHorizontal: 20 }}>
           {communityData.map((crop, index) => {
               return (
