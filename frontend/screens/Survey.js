@@ -9,7 +9,7 @@ import Footer from '../components/survey/Footer'
 
 
 export default function Survey({ navigation }) {
-  const [location, setLocation] = useState('')
+  const [location, setLocation] = useState('London')
   const [range, setRange] = useState('0')
 
   return (
@@ -20,7 +20,7 @@ export default function Survey({ navigation }) {
       <Size range={range} handleRange={setRange} />
       <Crops />
       <Fertilizer />
-      <Footer name='Carlos' selectedCrop='sugarcane' navigation={navigation}/>
+      <Footer name='Carlos' selectedCrop='sugarcane' navigation={navigation} location={location} />
     </SafeAreaView>
     </View>
   )

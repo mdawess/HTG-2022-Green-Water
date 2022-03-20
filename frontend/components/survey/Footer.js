@@ -11,7 +11,7 @@ export default function Footer(props) {
                 <Image source={farmer1} style={{ width: 50, height: 50}} />
             </View>
             <Text style={{ marginLeft: 10, fontSize: 14, fontWeight: '400', width: 200}}>{'Recommendations on ' + props.selectedCrop + ' are informed by farmers in your area like ' + props.name}</Text>
-            <TouchableOpacity onPress={() => props.navigation.navigate('Home')}>
+            <TouchableOpacity onPress={() => props.navigation.navigate('Home', props.location)}>
                 <AntDesign name="arrowright" size={30} style={{ color: '#3B5284', marginLeft: 30}} />
             </TouchableOpacity>
         </View>

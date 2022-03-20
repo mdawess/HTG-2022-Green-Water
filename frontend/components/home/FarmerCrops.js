@@ -12,6 +12,11 @@ export default function FarmerCrops(props) {
             <CropType img={farmerCropData[0].image} cropName={farmerCropData[0].cropType} setSelected={props.setCrop} />
             <CropType img={farmerCropData[1].image} cropName={farmerCropData[1].cropType} setSelected={props.setCrop} />
         </View>
+        <View style={{ justifyContent: 'space-between', flexDirection: 'row'}}>
+            {/* Add mapping to allow for extendability */}
+            <CropType img={farmerCropData[2].image} cropName={farmerCropData[2].cropType} setSelected={props.setCrop} />
+            <CropType img={farmerCropData[3].image} cropName={farmerCropData[3].cropType} setSelected={props.setCrop} />
+        </View>
     </View>
   )
 }

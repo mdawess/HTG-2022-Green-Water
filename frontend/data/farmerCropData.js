@@ -1,6 +1,7 @@
-import cotton from '../assets/images/cotton.png'
+import cotton from '../assets/images/cotton_big.png'
 import soy from '../assets/images/soy_big.png'
 import sugar from '../assets/images/sugar_big.png'
+import maize from '../assets/images/maize_big.png'
 
 
 const farmerCropData = [
@@ -11,6 +12,14 @@ const farmerCropData = [
     {
         cropType: 'Sugar',
         image: sugar
+    },
+    {
+        cropType: 'Cotton',
+        image: cotton
+    },
+    {
+        cropType: 'Maize',
+        image: maize
     },
 ]
 
